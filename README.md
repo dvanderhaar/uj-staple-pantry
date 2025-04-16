@@ -6,9 +6,9 @@ This research introduces the **Staple Pantry Dataset**, a new benchmark for **in
 ### Key Features
 - **1,000 images** with **6,882 instance masks** and **405,534,586 labelled pixels** across **100 ingredient categories**.
 - **Real-world complexity**: Overlapping items, obscured items, variable lighting, cluttered backgrounds.
-- **High-quality annotations**: Pixel-level polygon masks for fine-grained textures (e.g., salt grains, stems of vegetables).
+- **High-quality annotations**: Pixel-level polygon masks for fine-grained textures (e.g., salt grains, vegetables stems).
 
-### Example of annotated image and segmentation mask
+#### Example of an annotated image and a segmentation mask
 ![Teaser Image](assets/masks.jpg)
 
 ## Dataset Structure 📂
@@ -17,11 +17,23 @@ The dataset is organized as follows:
 staple_pantry_1000/
 ├── images/ # Images Folder (1000 images)
 ├── annotations/
-│ ├── staple_pantry_1000.json # COCO-format annotations 
-└── README.md # This file
+│ ├── staple_pantry_1000.json # COCO-format annotations
 ```
 ## Dataset Statistics 📈
 ### Class Distribution
 **Top 46 ingredient categories by instance count**
 ![Class Distribution](assets/class_distribution.png)  
+ 
+## Annotation Process 🖌️
+- **Tool**: CVAT (Computer Vision Annotation Tool) and Roboflow for polygon masks.  
+- **Quality Control**:   
+  - Manual review of 100% of annotations.
+  - Predefined list of categories
+- **Guidelines**: [Annotation Protocol](docs/annotation_guidelines.md) 
+
+## Dataset Splits 🧩
+| Split | Images | Instances |  
+|-------|--------|-----------|  
+| Train | 800    | 5,506     |  
+| Test  | 200    | 1,376     | 
 
