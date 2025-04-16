@@ -9,8 +9,7 @@ This research introduces the **Staple Pantry Dataset**, a new benchmark for **in
 - **Real-world complexity**: Overlapping items, obscured items, variable lighting, cluttered backgrounds.
 - **High-quality annotations**: Pixel-level polygon masks for fine-grained textures (e.g., salt grains, stems of vegetables).
 
-## Example of annotated images and segmentation masks
-
+*Examples of annotated images and segmentation masks*
 ![Teaser Image](assets/masks.jpg)
 
 ## Dataset Structure 📂
