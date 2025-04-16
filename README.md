@@ -13,6 +13,7 @@ This research introduces the **Staple Pantry Dataset**, a new benchmark for **in
 
 
 ## Dataset Structure 📂
+The dataset is organized as follows:
 ```plaintext
 staple_pantry_1000/
 ├── images/ # Images Folder (1000 images)
