@@ -13,9 +13,10 @@ This research introduces the **Staple Pantry Dataset**, a new benchmark for **in
 
 
 ## Dataset Structure 📂
-
+```plaintext
 staple_pantry_1000/
 ├── images/ # Images Folder (1000 images)
 ├── annotations/
 │ ├── staple_pantry_1000.json # COCO-format annotations 
 └── README.md # This file
+```
