@@ -10,7 +10,7 @@ This research introduces the **Staple Pantry Dataset**, a new benchmark for **in
 - **High-quality annotations**: Pixel-level polygon masks for fine-grained textures (e.g., salt grains, stems of vegetables).
 
 **Examples of annotated images and segmentation masks**
-
+![Teaser Image](assets/masks.jpg)
 
 ## Dataset Structure 📂
 The dataset is organized as follows:
