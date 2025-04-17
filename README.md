@@ -30,3 +30,6 @@ staple_pantry_1000/
 | Train | 800    | 5,506     |  
 | Test  | 200    | 1,376     | 
 
+## Ethics & Licensing ⚖️ 
+- **Licenses**: ... 
+- **Ethics**: No personally identifiable information (PII) included.
