@@ -22,6 +22,7 @@ staple_pantry_1000/
 ## Dataset Statistics 📈
 ### Class Distribution
 **Top 46 ingredient categories by instance count**
+
 ![Class Distribution](assets/class_distribution.png)  
 
 ## Dataset Splits 🧩
