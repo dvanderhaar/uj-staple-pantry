@@ -14,14 +14,17 @@ This research introduces the **Staple Pantry Dataset**, a new benchmark for **in
 ## Dataset Structure 📂
 The dataset is organized as follows:
 ```plaintext
-staple_pantry_1000/
-├── images/ # Images Folder (1000 images)
-├── annotations/
-│ ├── staple_pantry_1000.json # COCO-format annotations
+UJ Staple Pantry 1000/
+├── train/
+│ ├── images/
+│ ├── annotations.json
+├── valid/
+│ ├── images/
+│ ├── annotations.json
 ```
 ## Dataset Statistics 📈
 ### Class Distribution
-**Top 46 ingredient categories by instance count**
+**Top ingredient categories by instance count**
 
 ![Class Distribution](assets/class_distribution.png)  
 
@@ -32,5 +35,5 @@ staple_pantry_1000/
 | Test  | 200    | 1,376     | 
 
 ## Ethics & Licensing ⚖️ 
-- **Licenses**: ... 
+- **Licenses**: Creative Commons Attribution Share Alike 4.0
 - **Ethics**: No personally identifiable information (PII) included.
